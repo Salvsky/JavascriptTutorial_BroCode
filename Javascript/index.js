@@ -1,5 +1,8 @@
-let bagay = 20;
+let firstname;
 
-bagay = bagay + 1;
+document.getElementById("submit").onclick = function(){
 
-console.log(bagay);
+    firstname = document.getElementById("firstName").value;
+    console.log(firstname);
+    document.getElementById("label").innerHTML = "Hello " + firstname;
+}

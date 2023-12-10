@@ -1,11 +1,5 @@
-let firstName = "Ian Salvador";
+let bagay = 20;
 
-let age;
-age = 21;
+bagay = bagay + 1;
 
-let student = true;
-
-
-document.getElementById("p1").innerHTML = "Kumusta ka na " + firstName;
-document.getElementById("p2").innerHTML = "ikaw ay " + age + " taong gulang";
-document.getElementById("p3").innerHTML = student + " na nakaenroll ka"; 
+console.log(bagay);
